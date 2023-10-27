@@ -1,6 +1,7 @@
 const mysql = require("mysql2");
 const { faker } = require("@faker-js/faker");
 
+// Integrate MySQL with Node
 const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
